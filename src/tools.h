@@ -19,14 +19,18 @@ class Tools {
   /**
    * A helper method to calculate RMSE.
    */
-  Eigen::VectorXd CalculateRMSE(const std::vector<Eigen::VectorXd> &estimations, 
+  static Eigen::VectorXd CalculateRMSE(const std::vector<Eigen::VectorXd> &estimations,
                                 const std::vector<Eigen::VectorXd> &ground_truth);
 
   /**
    * A helper method to calculate Jacobians.
    */
-  Eigen::MatrixXd CalculateJacobian(const Eigen::VectorXd& x_state);
+  static Eigen::MatrixXd CalculateJacobian(const Eigen::VectorXd& x_state);
 
+
+  static Eigen::VectorXd PolarToCartesian(double rho, double phi, double rhodot);
+  static Eigen::VectorXd CartesianToPolar(const double px, const double py, const double vx, const double vy);
+  static double wrap_angle(double angle);
 };
 
 #endif  // TOOLS_H_
