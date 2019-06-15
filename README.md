@@ -30,6 +30,10 @@ On final time step, we can see that the error is below the error requirements.
 
 ## Try it yourself
 
+In my case, I found easier to use a Ubuntu virtual machine that I already had
+with the simulator running on Windows. So I had to set up a port forwarding. [Here](https://medium.com/@asimay_y/how-to-solve-the-testing-problems-of-udacity-simulator-between-windows-and-vmware-linux-d7cc620ef1a2)
+is an article about that. 
+
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
 
 This repository includes two files that can be used to set up and install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) for either Linux or Mac systems. For windows you can use either Docker, VMware, or even [Windows 10 Bash on Ubuntu](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to install uWebSocketIO. Please see the uWebSocketIO Starter Guide page in the classroom within the EKF Project lesson for the required version and installation scripts.
@@ -41,6 +45,7 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 3. cmake ..
 4. make
 5. ./ExtendedKF
+
 
 ---
 
