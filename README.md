@@ -1,5 +1,5 @@
-# Extended Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
+# Extended Kalman Filter Project
+Udacity Self-Driving Car Engineer Nanodegree Program
 
 In this project, I implemented a Kalman Filter to estimate the state of a moving car. This
 car has two sensors, a Laser and a Radar, and both measurements are noisy. The objective
