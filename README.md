@@ -25,7 +25,7 @@ Here you can check out a video of the implementation:
 
 [![Self driving](http://img.youtube.com/vi/fw_6EaQePjw/0.jpg)](http://www.youtube.com/watch?v=fw_6EaQePjw)
 
-On final time step, we can see that the error is below the error requirements.
+The red and blue points are radar and laser measurements, and the green points are the output of the Kalman filter. On the right, we can see the error values for the filter. On final time step, we can see that the error is below the error requirements.
 
 
 ## Try it yourself
